@@ -4,7 +4,8 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This is my web portfolio using the Flutter framework to show you my resume, in it you will find my experience as a mobile developer, 
+you will also find personal projects, work experiences, personal achievements and more about me.
 
 A few resources to get you started if this is your first Flutter project:
 
