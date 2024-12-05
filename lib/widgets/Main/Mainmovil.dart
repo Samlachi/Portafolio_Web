@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 import 'package:protafolio_personal_robertolachi/constants/Colors.dart';
-import 'package:protafolio_personal_robertolachi/constants/ListImages.dart';
 
 class Mainmovil extends StatelessWidget {
   const Mainmovil({super.key});
@@ -13,7 +12,7 @@ class Mainmovil extends StatelessWidget {
         
             height: 500,
             width: double.maxFinite,
-            color: Black,
+            color: Background_main,
             child: Column(
                mainAxisAlignment: MainAxisAlignment.center,
                crossAxisAlignment: CrossAxisAlignment.center,
@@ -50,7 +49,7 @@ class Mainmovil extends StatelessWidget {
                             ],
                           ),               
               ), 
-                Row(
+            /*    Row(
                  
                     mainAxisAlignment: MainAxisAlignment.center,
                   
@@ -70,7 +69,7 @@ class Mainmovil extends StatelessWidget {
                         ),
                       );
                     }).toList(),
-                  ),
+                  ), */
                 
               ],
             ),

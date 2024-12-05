@@ -6,12 +6,18 @@ class Sitelogo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Padding(
-      padding: const EdgeInsets.only(left: 20),
-      child: 
-          GestureDetector(onTap: onTap ,child: const Text('KL' ,style: TextStyle(color: Colors.amber, fontSize: 30, decoration: TextDecoration.underline, decorationColor: Colors.amber),)),
-      
-      
+    return GestureDetector(
+      onTap: onTap,
+      child: const Padding(
+          padding: EdgeInsets.only(left: 20),
+          child: Text(
+            'KL',
+            style: TextStyle(
+                color: Colors.amber,
+                fontSize: 30,
+                decoration: TextDecoration.underline,
+                decorationColor: Colors.amber),
+          )),
     );
   }
 }
